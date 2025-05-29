@@ -1,5 +1,5 @@
-# %%
-## Streamlip App Code
+# %% [markdown]
+# ## Streamlip App Code
 
 # %%
 import streamlit as st
@@ -14,7 +14,7 @@ st.set_page_config(page_title="Construction Delay Predictor")
 st.title("🏗️ Construction Delay Risk Estimator")
 
 st.markdown("""
-Estimate whether a project is likely to be **delayed** based on its early planning details.
+This tool uses historical data from NYC School Construction Authority (SCA) projects to estimate the likelihood of delays, helping project planners evaluate risks early.
 """)
 st.markdown("### Input Project Details")
 
@@ -24,7 +24,7 @@ budget = st.number_input("Project Budget ($)", min_value=1000.0, format="%.2f")
 duration = st.number_input("Planned Duration (days)", min_value=1)
 
 project_type = st.selectbox("Project Type", [
-    'SCA CIP', 'SCA CIP RESOA', 'SCA EmergencyLighting', 'SCA Lease Site Improvement'
+    'SCA', 'SCA CIP RESOA', 'SCA EmergencyLighting', 'SCA Lease Site Improvement'
 ])
 
 project_phase = st.selectbox("Project Phase", ['Scope', 'Design', 'Construction', 'CM,F&E'])
