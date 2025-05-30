@@ -1,0 +1,8 @@
+# Required packages for the project
+
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
