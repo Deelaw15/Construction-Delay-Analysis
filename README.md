@@ -10,7 +10,7 @@
 This project is a **Construction Delay Risk Estimator** built using machine learning and deployed as a web app via Streamlit. It predicts the likelihood of delays in construction projects using early-stage data.
 
 > It was built using real-world data from the New York City School Construction Authority (SCA) and is designed to demonstrate how predictive analytics can support better decision-making in construction.
-> The model is realistic for early-stage planning and budgeting, as it uses only information typically available before the project starts — such as budget, planned duration, start season, and project phase.
+> The model is realistic for early-stage planning and budgeting, as it uses only information typically available before the project starts, such as budget, planned duration, start season, and project phase.
 > This project reflects the application of data science principles in a domain-specific context, combining machine learning with practical understanding of construction workflows.
 ---
 
