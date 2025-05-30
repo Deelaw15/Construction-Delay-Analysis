@@ -32,7 +32,7 @@ This project explores whether **early indicators** like:
 ## 🗂️ Dataset Information
 
 - **Source**: NYC Open Data (Capital Project Schedules and Budgets)
-- [Dataset link](https://data.cityofnewyork.us/City-Government/Capital-Project-Schedules-and-Budgets/9h9v-3icd)
+- [Dataset link]([https://data.cityofnewyork.us/City-Government/Capital-Project-Schedules-and-Budgets/9h9v-3icd](https://catalog.data.gov/dataset/capital-project-schedules-and-budgets))
 - Covers capital projects related to **public school construction and renovations**
 
 ---
